@@ -1,0 +1,11 @@
+input#display {
+    text-align: right;
+}
+
+button {
+    width: 25px;
+}
+
+.oper {
+    text-align: right;
+}

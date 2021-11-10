@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    <title>Lydia's Calculator</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" id="display" /></td>
+        </tr>
+        <tr>
+            <td><button onClick="calcKeyPressed('1')">1</button></td>
+            <td><button onClick="calcKeyPressed('2')">2</button></td>
+            <td><button onClick="calcKeyPressed('3')">3</button></td>
+            <td class="oper"><button onClick="calcKeyPressed('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onClick="calcKeyPressed('4')">4</button></td>
+            <td><button onClick="calcKeyPressed('5')">5</button></td>
+            <td><button onClick="calcKeyPressed('6')">6</button></td>
+            <td class="oper"><button onClick="calcKeyPressed('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onClick="calcKeyPressed('7')">7</button></td>
+            <td><button onClick="calcKeyPressed('8')">8</button></td>
+            <td><button onClick="calcKeyPressed('9')">9</button></td>
+            <td class="oper"><button onClick="calcKeyPressed('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onClick="calcKeyPressed('C')">C</button></td>
+            <td><button onClick="calcKeyPressed('0')">0</button></td>
+            <td><button onClick="calcKeyPressed('=')">=</button></td>
+            <td class="oper"><button onClick="calcKeyPressed('/')">/</button></td>
+        </tr>
+    </table>
+</body>
+</html>
